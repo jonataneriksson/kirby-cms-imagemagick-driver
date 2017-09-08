@@ -1,12 +1,22 @@
 # Kirby imagemagick-driver Plugin
 
-The readme for your plugin
+Custom imagemagic driver for Kirby CMS with support for sRGB conversion.
 
 ## Requirements
 
+Kirby CMS, Imagemagick, PHP5 upwards
+
 ## Installation
 
+> kirby plugin:install jonataneriksson/kirby-cms-imagemagick-driver
+
+Add these to your config/config.php file and if neededreplace '/usr/local/bin/convert'.
+> c::set('thumbs.bin', '/usr/local/bin/convert');
+> c::set('thumbs.driver', 'imagemagick');
+
 ## Options
+
+No options yet.
 
 ## License
 
@@ -14,4 +24,4 @@ The readme for your plugin
 
 ## Author
 
-Your Name <http://yourwebsite.com>
+Jonatan Eriksson  <http://tsto.org>

@@ -4,5 +4,5 @@
   "author": "Jonatan Eriksson <jonatan@tsto.org>",
   "license": "MIT",
   "version": "0.1.1",
-  "type": "kirby-plugin",
+  "type": "kirby-plugin"
 }
